@@ -1,0 +1,3 @@
+Archivo de marcador para simulación de modelo
+Este archivo simula un modelo H5 entrenado
+Clases: Macarrones, Estrellitas, Fideos, Fettuccine, Orecchiette, Farfalle, Fusilli, Rigatoni, Penne, Conchiglie, Bucatini, Lasagna, Espagueti

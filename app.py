@@ -18,7 +18,7 @@ def parse_args():
         args: Argumentos analizados
     """
     parser = argparse.ArgumentParser(description='Servidor API y Web para el clasificador de gomitas')
-    parser.add_argument('--port', type=int, default=5000, help='Puerto del servidor (default: 5000)')
+    parser.add_argument('--port', type=int, default=8000, help='Puerto del servidor (default: 5000)')
     parser.add_argument('--host', default='0.0.0.0', help='Host del servidor (default: 0.0.0.0)')
     parser.add_argument('--debug', action='store_true', help='Ejecutar el servidor en modo debug')
     return parser.parse_args()

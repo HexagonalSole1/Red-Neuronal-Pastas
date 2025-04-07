@@ -5,5 +5,5 @@ Tamaño de imagen: 224x224
 Batch size: 32
 Learning rate: 0.001
 Número de folds: 5
-Precisión promedio: 0.9968
-Desviación estándar: 0.0025
+Precisión promedio: 0.9981
+Desviación estándar: 0.0019

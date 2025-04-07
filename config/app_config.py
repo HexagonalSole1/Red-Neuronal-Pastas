@@ -19,7 +19,7 @@ APP_NAME = "Food Classification System"
 SECRET_KEY = os.environ.get('SECRET_KEY', 'dev_secret_key_12345')
 DEBUG = os.environ.get('DEBUG', 'False').lower() in ('true', '1', 't')
 HOST = os.environ.get('HOST', '0.0.0.0')
-PORT = int(os.environ.get('PORT', 5000))
+PORT = int(os.environ.get('PORT', 8000))
 MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'heic', 'heif'}
 
